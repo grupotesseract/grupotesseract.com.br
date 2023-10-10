@@ -4,7 +4,7 @@ import SystemsDevelopment from "./SystemsDevelopment";
 
 export default function Section() {
     return (
-        <div className="flex gap-44">
+        <div className="flex gap-44 md:max-xl:flex-col md:gap-16">
             <Outsourcing />
             <SystemsDevelopment />
             <Consulting />
