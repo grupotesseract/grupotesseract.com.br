@@ -6,7 +6,7 @@ export default function Home() {
       <div className="text-2xl font-bold">Grupo Tesseract</div>
       <section>
         <div>
-        <Section />
+          <Section />
         </div>
       </section>
     </main>
