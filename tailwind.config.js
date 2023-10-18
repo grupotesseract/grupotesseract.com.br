@@ -7,8 +7,7 @@ module.exports = {
   ],
   theme: {
     width: {
-      '319': '19.938rem',
-      '352': '22rem',
+      '358': '22.375rem'
     },
     height: {
       '42': '2.625rem',
