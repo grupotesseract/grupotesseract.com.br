@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 interface IconTitleDescriptionProps {
     icon: string,
     title: string,
@@ -8,8 +7,6 @@ interface IconTitleDescriptionProps {
 }
 
 export default function IconTitleDescription (props: IconTitleDescriptionProps) {
-   
-    
     return (
         <div className="flex flex-col items-center w-358 gap-30">
             <Image src={props.icon} alt="outsourcing" width={182} height={195} className="flex m-8"/>

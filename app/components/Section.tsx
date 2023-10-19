@@ -1,28 +1,26 @@
 import IconTitleDescription from "./IconTitleDescription";
-
 import contact from "../../docs/image/contact.svg"
 import gears from "../../docs/image/gears.svg";
 import list from "../../docs/image/list.svg"
 
-
 export default function Section () {
     const sectionData = [{
-        icon: gears,                  
+        icon: gears,
         title: "Outsourcing",
-        description: "<strong> Alocamos profissionais ou equipes completas </strong> na sua empresa por um período indeterminado, onde os mesmos possam contribuir para o crescimento das suas soluções.",
-        key: 1, 
+        description: "<b> Alocamos profissionais ou equipes completas</b> na sua empresa por um período indeterminado, onde os mesmos possam contribuir para o crescimento das suas soluções.",
+        key: 1,
     },
     {
-        icon: list,                  
+        icon: list,
         title: "Desenvolvimento de Sistemas",
-        description: "<strong>Cuidamos de toda a gestão do projeto e equipe </strong> de desenvolvimento para tirar sua ideia do papel e transformá-la em um produto escalável com os mais altos padrões de qualidade.",
+        description: "<b>Cuidamos de toda a gestão do projeto e equipe</b> de desenvolvimento para tirar sua ideia do papel e transformá-la em um produto escalável com os mais altos padrões de qualidade.",
         key: 2,
         titleClass: "flex text-center pt-4 pb-4"
     },
     {
-        icon: contact,                  
+        icon: contact,
         title: "Consultoria",
-        description: "Oferecemos também <strong>análises aprofundadas de aplicações</strong> em PHP e JavaScript, bem como otimizações e medidas de segurança para ambientes AWS e pipelines de CI/CD.",
+        description: "Oferecemos também <b>análises aprofundadas de aplicações</b> em PHP e JavaScript, bem como otimizações e medidas de segurança para ambientes AWS e pipelines de CI/CD.",
         key: 3
     },
     ];
