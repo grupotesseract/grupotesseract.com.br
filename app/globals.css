@@ -20,3 +20,30 @@ body {
   color: white;
   background: black
 }
+
+.triangle1 {
+  position: absolute;
+  border-left: 124px solid rgba(255, 255, 255, 0.15);
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-top: 110px solid transparent;
+  z-index: 0;
+}
+
+.triangle2 {
+  position: absolute;
+  border-left: 184px solid rgba(255, 255, 255, 0.15);
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-top: 110px solid transparent;
+  z-index: 1;
+}
+
+.triangle3 {
+  position: absolute;
+  border-left: 244px solid rgba(255, 255, 255, 0.15);
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-top: 110px solid transparent;
+  z-index: 2;
+}
