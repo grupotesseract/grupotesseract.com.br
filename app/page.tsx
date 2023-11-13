@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <div className="text-2xl font-bold">Grupo Tesseract</div>
-      <section>
-        <div className="w-full">
+      <section className="min-w-full">
+        <div className="min-w-full">
           <Section />
         </div>
-        <div className="w-full">
+        <div className="min-w-full">
           <TeamInformation />
         </div>
       </section>
