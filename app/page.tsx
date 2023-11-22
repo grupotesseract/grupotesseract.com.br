@@ -1,4 +1,5 @@
 import Section from "./components/Section";
+import TeamInformation from "./components/TeamInformation"
 
 export default function Home() {
   return (
@@ -7,6 +8,9 @@ export default function Home() {
       <section>
         <div>
           <Section />
+        </div>
+        <div>
+        <TeamInformation />
         </div>
       </section>
     </main>

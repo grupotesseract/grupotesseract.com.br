@@ -26,11 +26,11 @@ export default function Section () {
     ];
     
     return (
-        <div className="flex items-center gap-36 md:max-xl:flex-col md:max-xl:gap-16">
+        <div className="flex items-center gap-36 mt-20 md:max-xl:flex-col md:max-xl:gap-16">
                   {sectionData.map(function(item) {
                     return (
                         <IconTitleDescription icon={item.icon} title={item.title} description={item.description} key={item.key}
-                        titleClass={item.titleClass}/>
+                        titleClass={item.titleClass} visible={true}/>
                     )
                   })
                   }
