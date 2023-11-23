@@ -33,8 +33,8 @@ export default function Menu() {
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </button>
-          <div className="bg-lightBlue bg-opacity-80 w-[67%] blur-1"></div>
-          <nav className="flex flex-col flex-wrap w-[33%] pt-12 pr-24 pb-36 pl-16 bg-gray bg-opacity-20">
+          <div className="bg-lightBlue bg-opacity-80 w-[63%] blur-1"></div>
+          <nav className="flex flex-col flex-wrap w-[37%] pt-12 pr-24 pb-36 pl-16 bg-gray bg-opacity-20">
             <ul className="flex flex-col justify-between min-h-[250px] mt-48">
               <li className="text-white text-3xl font-black my-2 uppercase">
                 <a href="/quemSomos">Quem Somos</a>
