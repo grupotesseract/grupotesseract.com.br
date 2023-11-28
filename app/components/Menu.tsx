@@ -23,7 +23,7 @@ export default function Menu() {
             onClick={() => setOpenMenu(!openMenu)}
           >
             <svg
-              className="h-8 w-8 text-gray-600"
+              className="h-24 w-20 text-gray-600"
               viewBox="0 0 48 48"
               fill="none"
               stroke="#23AFB3"
