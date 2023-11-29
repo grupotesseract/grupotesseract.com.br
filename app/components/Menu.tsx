@@ -8,7 +8,7 @@ export default function Menu() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className="flex justify-end">
+    <div className="flex justify-end h-850">
       <div
         className={!openMenu ? 'pt-16 pr-36 pb-24' : 'hidden'}
         onClick={() => setOpenMenu(!openMenu)}

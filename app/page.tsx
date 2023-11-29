@@ -1,3 +1,4 @@
+import Presentation from './components/Presentation';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Section from './components/Section';
@@ -9,6 +10,7 @@ export default function Home() {
       <header>
         <Header />
       </header>
+      <Presentation />
       <main className="flex min-h-screen flex-col items-center justify-center">
         <section className="min-w-full">
           <div className="min-w-full">
