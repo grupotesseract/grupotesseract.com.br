@@ -10,6 +10,8 @@
 
 In this year 2023, we started developing the new version of our [website](https://grupotesseract.com.br). This version uses **React**, **Next**, **Tailwind**, among other useful development tools. The roadmap can be found on the [Github project page](https://github.com/orgs/grupotesseract/projects/1).
 
+The website preview can be seen here: **https://grupotesseract-com-br.vercel.app**
+
 <br>
 
 ## Requirements
