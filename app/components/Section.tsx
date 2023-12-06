@@ -1,7 +1,7 @@
 import IconTitleDescription from './IconTitleDescription';
-import contact from '../../docs/image/contact.svg';
-import gears from '../../docs/image/gears.svg';
-import list from '../../docs/image/list.svg';
+import contact from '../../assets/image/contact.svg';
+import gears from '../../assets/image/gears.svg';
+import list from '../../assets/image/list.svg';
 
 export default function Section() {
   const sectionData = [

@@ -15,6 +15,9 @@ module.exports = {
       '42': '2.625rem',
       '112': '7rem'
     },
+    blur: {
+      '1': '1px'
+    },
     colors: {
       lightBlue: '#23AFB3',
       gray: '#D9D9D9',
