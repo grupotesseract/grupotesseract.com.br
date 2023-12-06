@@ -21,6 +21,41 @@ body {
   background: black
 }
 
+.content {
+  width: 100%;
+  height: 34.375rem;
+  margin-top: 3rem;
+}
+
+.style-title {
+  width: 100%;
+  padding-top: 5rem;
+  padding-left: 9rem;
+  padding-bottom: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.typewriter {
+  width: 100%;
+  height: 35rem;
+  padding-left: 9rem;
+  color: white;
+  font-weight: 900;
+}
+
+.style-text {
+  width: 30rem;
+  padding-top: 4rem;
+  padding-bottom: 1.75rem;
+}
+
+.dash {
+  width: 20.375rem;
+  border-width: 2px;
+
+}
+
 .triangle1 {
   position: absolute;
   width: 0;

@@ -25,11 +25,11 @@ export default function Presentation() {
   ];
   return (
     <>
-      <div className="flex flex-col items-start w-full h-550">
-        <h2 className="flex flex-col justify-start items-start w-full pt-20 pl-36 pb-5 text-xl text-lightBlue font-semibold uppercase">
+      <div className="content flex flex-col items-start">
+        <h2 className="style-title flex flex-col justify-start items-start text-xl text-lightBlue">
           Sites. Sistemas. Aplicativos.
         </h2>
-        <div className="flex flex-col justify-start items-start w-full h-560 pl-36 text-5xl text-white font-black">
+        <div className="typewriter flex flex-col justify-start items-start text-5xl">
           {sectionData.map(function (item) {
             return (
               <Typewriter
@@ -41,11 +41,11 @@ export default function Presentation() {
               />
             );
           })}
-          <p className="w-480 pt-16 text-2xl font-normal pb-7">
+          <p className="style-text text-2xl font-normal">
             Tudo que sua empresa precisa para alavancar o crescimento das suas
             soluções
           </p>
-          <div className="w-326 border-2 border-lightBlue"></div>
+          <div className="dash border-lightBlue"></div>
         </div>
       </div>
     </>
