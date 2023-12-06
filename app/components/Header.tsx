@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex justify-between absolute pl-24 m-8">
         <Logo width={200} height={100} />
       </div>
-      <div>
+      <div className="h-200">
         <Menu />
       </div>
     </>

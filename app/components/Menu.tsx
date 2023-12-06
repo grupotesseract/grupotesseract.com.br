@@ -8,7 +8,7 @@ export default function Menu() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className="flex justify-end">
+    <div className="flex justify-end h-screen w-screen">
       <div
         className={!openMenu ? 'pt-16 pr-36 pb-24' : 'hidden'}
         onClick={() => setOpenMenu(!openMenu)}
@@ -19,11 +19,11 @@ export default function Menu() {
       {openMenu && (
         <>
           <button
-            className="flex absolute w-[100px] h-[100px] m-8"
+            className="flex absolute w-24 h-24 m-8"
             onClick={() => setOpenMenu(!openMenu)}
           >
             <svg
-              className="h-8 w-8 text-gray-600"
+              className="h-24 w-20 text-gray-600"
               viewBox="0 0 48 48"
               fill="none"
               stroke="#23AFB3"
@@ -33,9 +33,9 @@ export default function Menu() {
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </button>
-          <div className="bg-lightBlue bg-opacity-80 w-[63%] blur-1"></div>
-          <nav className="flex flex-col flex-wrap w-[37%] pt-12 pr-24 pb-36 pl-20 bg-gray bg-opacity-20">
-            <ul className="flex flex-col justify-between min-h-[250px] mt-48">
+          <div className="bg-lightBlue bg-opacity-80 w-2/3 blur-1"></div>
+          <nav className="flex flex-col flex-wrap w-1/3 pt-12 pr-24 pb-36 pl-20">
+            <ul className="flex flex-col justify-between h-60 mt-48">
               <li className="text-white text-3xl font-black my-2 uppercase">
                 <a href="/quemSomos">Quem Somos</a>
               </li>
