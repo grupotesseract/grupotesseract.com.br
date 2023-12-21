@@ -20,3 +20,34 @@ body {
   color: white;
   background: black
 }
+
+.box-carousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.circles {
+  width: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.carousel {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.box-depositions {
+  width: 50rem;
+}
+
+.depositions {
+  max-width: 56rem;
+  height: 31.25rem;
+  gap: 7.5rem;
+}
