@@ -23,12 +23,12 @@ export default function Home() {
           <div className="min-w-full">
             <TeamInformation />
           </div>
+          <Carousel slides={slides} />
         </section>
         <div className="min-w-full pt-72">
           <Footer />
         </div>
-        <Carousel slides={slides} />
-      </section>
-    </main>
+      </main>
+    </>
   );
 }

@@ -2,8 +2,8 @@
 
 import { SetStateAction, useEffect, useState } from 'react';
 
-import navigatePrevious from '../../docs/image/navigate-previous.svg';
-import navigateNext from '../../docs/image/navigate-next.svg';
+import navigatePrevious from '../../assets/image/navigate-previous.svg';
+import navigateNext from '../../assets/image/navigate-next.svg';
 import Image from 'next/image';
 import Depositions from './Depositions';
 

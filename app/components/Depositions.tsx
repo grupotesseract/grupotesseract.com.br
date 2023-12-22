@@ -1,5 +1,5 @@
-import logoCredito from '../../docs/image/logoCredito.png';
-import logoAletheia from '../../docs/image/logoAletheia.png';
+import logoCredito from '../../assets/image/logoCredito.png';
+import logoAletheia from '../../assets/image/logoAletheia.png';
 import DepositoinsBox from './DepositionsBox';
 
 export default function Depositions() {
