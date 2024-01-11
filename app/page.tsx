@@ -4,11 +4,9 @@ import Header from './components/Header';
 import Section from './components/Section';
 import TeamInformation from './components/TeamInformation';
 import Carousel from './components/Carousel';
+import { slides } from './components/Depositions';
 
 export default function Home() {
-  const slides = ['', '', '', ''];
-  //O tamanho do array está interligado com a quatidade de circulos que vão aparecer embaixo do depoimento
-
   return (
     <>
       <header>

@@ -1,6 +1,6 @@
 'use client';
 
-import { SetStateAction, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import navigatePrevious from '../../assets/image/navigate-previous.svg';
 import navigateNext from '../../assets/image/navigate-next.svg';
@@ -12,6 +12,7 @@ export default function Carousel({ slides }) {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
+    console.log(current);
     setCurrent(current);
   }, [current]);
 
@@ -21,7 +22,7 @@ export default function Carousel({ slides }) {
   };
 
   const nextSlide = () => {
-    if (current === slides.lenght - 1) setCurrent(0);
+    if (current === slides.length - 1) setCurrent(0);
     else setCurrent(current + 1);
   };
 
@@ -29,7 +30,7 @@ export default function Carousel({ slides }) {
     <div className="box-carousel">
       <div className="flex relative overflow-hidden snap-center">
         <div className="flex justify-between items-center h-screen max-w-full bottom-80 text-white text-3xl">
-          <button onClick={previousSlide}>
+          <button onClick={previousSlide} className="z-10">
             <Image
               src={navigatePrevious}
               alt="navigate-previous"
@@ -41,13 +42,12 @@ export default function Carousel({ slides }) {
             className="carousel"
             style={{
               transform: `translateX(-${current * 100}%)`,
-              scrollSnapType: 'x mandatory',
             }}
           >
             {/* as duas classes que estao dentro do style nao funcionam no tailwindCss */}
             <Depositions />
           </div>
-          <button onClick={nextSlide}>
+          <button onClick={nextSlide} className="z-10">
             <Image
               src={navigateNext}
               alt="navigate-next"
@@ -57,7 +57,7 @@ export default function Carousel({ slides }) {
           </button>
         </div>
         <div className="circles flex justify-center absolute bottom-16 gap-5">
-          {slides.map((_s: unknown, i: SetStateAction<number>) => {
+          {slides.map((slides: unknown, i: number) => {
             return (
               <div
                 className="circle"
@@ -71,7 +71,7 @@ export default function Carousel({ slides }) {
                 onClick={() => {
                   setCurrent(i);
                 }}
-                key={'circle' + 1}
+                key={`circle-${i}`}
               ></div>
             );
           })}
