@@ -4,28 +4,28 @@ import TestimonialsBox from './TestimonialsBox';
 
 export const slides = [
   {
-    image: logoCredito,
+    image: logoCredito.src,
     description: 'Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação. Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação.',
     user: 'Nome da pessoa',
     name: 'Crédito Rotativo',
     key: '1',
   },
   {
-    image: logoAletheia,
+    image: logoAletheia.src,
     description: 'Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação. Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação.',
     user: 'Nome da pessoa',
     name: 'Aletheia',
     key: '2',
   },
   {
-    image: logoCredito,
+    image: logoCredito.src,
     description: 'Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação. Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação.',
     user: 'Nome da pessoa',
     name: 'Nome da empresa',
     key: '3',
   },
   {
-    image: logoAletheia,
+    image: logoAletheia.src,
     description: 'Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação. Depoimento da empresa sobre a experiência dos serviços prestados pelo grupo Tesseract e feedback sobre a interação.',
     user: 'Nome da pessoa',
     name: 'Nome da empresa',
