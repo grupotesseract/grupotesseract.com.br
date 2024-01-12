@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Section from './components/Section';
 import TeamInformation from './components/TeamInformation';
 import Carousel from './components/Carousel';
-import { slides } from './components/Depositions';
+import { slides } from './components/Testimonials';
 
 export default function Home() {
   return (

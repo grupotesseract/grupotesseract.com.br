@@ -99,6 +99,7 @@ body {
   border-radius: 50%;
   width: 1.25rem;
   height: 1.25rem;
+  cursor: pointer;
 }
 
 .carousel {
