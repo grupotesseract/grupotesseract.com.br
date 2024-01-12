@@ -7,8 +7,7 @@ import navigateNext from '../../assets/image/navigate-next.svg';
 import Image from 'next/image';
 import Depositions from './Depositions';
 
-export default function Carousel({ slides }) {
-  //slides está interligado em todos os componentes, está em vermelho mas não compromete o funcionamento.
+export default function Carousel({ slides }: { slides: any[] }) {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
