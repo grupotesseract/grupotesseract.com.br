@@ -3,6 +3,7 @@ import Image from 'next/image';
 interface LogotypesProps {
   logo: string;
   logoClass?: string;
+  logoName: string;
   width: number;
   height: number;
   size?: boolean;
@@ -18,7 +19,7 @@ export default function Logotypes(props: LogotypesProps) {
     >
       <Image
         src={props.logo}
-        alt={'props.logo'}
+        alt={props.logoName}
         width={props.width}
         height={props.height}
         className={`${props.logoClass}`}

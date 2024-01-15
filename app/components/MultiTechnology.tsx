@@ -15,6 +15,7 @@ export default function MultiTechnology() {
   const logoData = [
     {
       logo: logoPhp,
+      logoName: 'logo-php',
       logoClass: 'flex',
       width: 150,
       height: 150,
@@ -23,18 +24,21 @@ export default function MultiTechnology() {
     },
     {
       logo: logoJavaScript,
+      logoName: 'logo-javascript',
       width: 100,
       height: 100,
       key: 2,
     },
     {
       logo: logoReact,
+      logoName: 'logo-react',
       width: 80,
       height: 90,
       key: 3,
     },
     {
       logo: logoLaravel,
+      logoName: 'logo-laravel',
       width: 150,
       height: 150,
       size: true,
@@ -45,6 +49,7 @@ export default function MultiTechnology() {
   const logoData1 = [
     {
       logo: logoCss,
+      logoName: 'logo-css',
       logoClass: 'flex',
       width: 100,
       height: 100,
@@ -52,12 +57,14 @@ export default function MultiTechnology() {
     },
     {
       logo: logoFrame,
+      logoName: 'logo-frame',
       width: 70,
       height: 75,
       key: 6,
     },
     {
       logo: logoCypress,
+      logoName: 'logo-cypress',
       width: 150,
       height: 150,
       size: true,
@@ -65,12 +72,14 @@ export default function MultiTechnology() {
     },
     {
       logo: logoReactNative,
+      logoName: 'logo-react-native',
       width: 200,
       height: 200,
       key: 8,
     },
     {
       logo: logoNest,
+      logoName: 'logo-nest',
       width: 90,
       height: 90,
       key: 9,
@@ -79,6 +88,7 @@ export default function MultiTechnology() {
   const logoData2 = [
     {
       logo: logoDocker,
+      logoName: 'logo-docker',
       logoClass: 'flex',
       width: 150,
       height: 150,
@@ -87,6 +97,7 @@ export default function MultiTechnology() {
     },
     {
       logo: logoAws,
+      logoName: 'logo-aws',
       width: 150,
       height: 150,
       size: true,
@@ -99,6 +110,7 @@ export default function MultiTechnology() {
       return (
         <Logotypes
           logo={item.logo}
+          logoName={item.logoName}
           logoClass={item.logoClass}
           size={item.size}
           width={item.width}
@@ -114,6 +126,7 @@ export default function MultiTechnology() {
       return (
         <Logotypes
           logo={item.logo}
+          logoName={item.logoName}
           logoClass={item.logoClass}
           size={item.size}
           width={item.width}
@@ -129,6 +142,7 @@ export default function MultiTechnology() {
       return (
         <Logotypes
           logo={item.logo}
+          logoName={item.logoName}
           logoClass={item.logoClass}
           size={item.size}
           width={item.width}
