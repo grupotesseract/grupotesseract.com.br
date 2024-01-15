@@ -85,10 +85,16 @@ body {
   border-color: transparent transparent rgba(255, 255, 255, 0.05) transparent;
   z-index: 1;
 }
+
 .box-carousel {
   display: flex;
   justify-content: center;
   margin-top: 10rem;
+}
+
+.carousel {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .circles {
@@ -102,16 +108,11 @@ body {
   cursor: pointer;
 }
 
-.carousel {
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.box-depositions {
+.box-testimonials {
   width: 50rem;
 }
 
-.depositions {
+.testimonials {
   max-width: 56rem;
   height: 31.25rem;
   gap: 7.5rem;

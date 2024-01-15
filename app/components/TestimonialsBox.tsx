@@ -13,7 +13,7 @@ interface TestimonialsBoxProps {
 export default function TestimonialsBox(props: TestimonialsBoxProps) {
   return (
     <article className="flex pt-8">
-      <div className="box-depositions flex items-center">
+      <div className="box-testimonials flex justify-center items-center">
         <Image
           src={props.image}
           alt="icons"

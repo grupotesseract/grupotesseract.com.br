@@ -26,7 +26,8 @@ export default function Carousel({ slides }: { slides: any[] }) {
               height={50}
             />
           </button>
-          <div className="carousel" style={{ transform: `translateX(-${current * 100}%)` }}>
+          {/* 57.5 is the sum of the testimonial-box width + gap. Keep units consistent do not ue 100%, use rem */}
+          <div className="carousel" style={{ transform: `translateX(-${(current * 57.5)}rem)` }}>
             <Testimonials />
           </div>
           <button onClick={nextSlide} className="z-10">

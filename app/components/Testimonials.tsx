@@ -35,7 +35,7 @@ export const slides = [
 
 export default function Testimonials() {
   return (
-    <div className="depositions flex">
+    <div className="testimonials flex">
       {slides.map((slide) => {
         return (
           <TestimonialsBox
