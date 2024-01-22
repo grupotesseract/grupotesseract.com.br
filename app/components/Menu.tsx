@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import iconMenu from '../../assets/image/iconMenu.svg';
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 export default function Menu() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -37,22 +38,22 @@ export default function Menu() {
           <nav className="flex flex-col flex-wrap w-1/3 pt-12 pr-24 pb-36 pl-20">
             <ul className="flex flex-col justify-between h-60 mt-48">
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <a href="/quemSomos">Quem Somos</a>
+                <Link href="/aboutus">Quem Somos</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <a href="/servicos">Serviços</a>
+                <Link href="/services">Serviços</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <a href="/projetos">Projetos</a>
+                <Link href="/projects">Projetos</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <a href="/carreira">Carreira</a>
+                <Link href="/career">Carreira</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <a href="/blog">Blog</a>
+                <Link href="/blog">Blog</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <a href="/contact">Contato</a>
+                <Link href="/contact">Contato</Link>
               </li>
             </ul>
           </nav>
