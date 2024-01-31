@@ -36,24 +36,24 @@ export default function Menu() {
           </button>
           <div className="bg-lightBlue bg-opacity-80 w-2/3 blur-1"></div>
           <nav className="flex flex-col flex-wrap w-1/3 pt-12 pr-24 pb-36 pl-20">
-            <ul className="flex flex-col justify-between h-60 mt-48">
+            <ul className="flex flex-col justify-between h-60 mt-48 relative">
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <Link href="/aboutus">Quem Somos</Link>
+                <Link href="/quemsomos">Quem Somos</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <Link href="/services">Serviços</Link>
+                <Link href="/servicos">Serviços</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <Link href="/projects">Projetos</Link>
+                <Link href="/projetos">Projetos</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <Link href="/career">Carreira</Link>
+                <Link href="/carreira">Carreira</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
                 <Link href="/blog">Blog</Link>
               </li>
               <li className="text-white text-3xl font-black my-2 uppercase">
-                <Link href="/contact">Contato</Link>
+                <Link href="/contato">Contato</Link>
               </li>
             </ul>
           </nav>
