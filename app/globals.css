@@ -117,3 +117,10 @@ body {
   height: 31.25rem;
   gap: 7.5rem;
 }
+
+.culture-text {
+  width: 46rem;
+  height: 7.125rem;
+  font-size: 2rem;
+  line-height: normal;
+}

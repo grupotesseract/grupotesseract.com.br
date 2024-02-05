@@ -12,6 +12,7 @@ module.exports = {
       '326': '20.375rem',
       '358': '22.375rem',
       '480': '30rem',
+      '490': '30.625rem',
     },
     height: {
       '42': '2.625rem',
@@ -34,6 +35,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         },
     },
+    fontSize: {
+      '2lg': ['2rem',{
+        lineHeight: '2.4rem'
+      } ],
+      },
     keyframes: {
       'animar-cursor': {
         '0%': {

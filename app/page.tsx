@@ -5,6 +5,7 @@ import Section from './components/Section';
 import TeamInformation from './components/TeamInformation';
 import Carousel from './components/Carousel';
 import { slides } from './components/Testimonials';
+import CompabyCulture from './components/CompanyCulture';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </header>
       <Presentation />
       <main className="flex min-h-screen flex-col items-center justify-center">
+        <CompabyCulture />
         <section className="min-w-full">
           <div className="min-w-full">
             <Section />
