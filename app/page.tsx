@@ -1,6 +1,4 @@
 import Presentation from './components/Presentation';
-import Footer from './components/Footer';
-import Header from './components/Header';
 import Section from './components/Section';
 import TeamInformation from './components/TeamInformation';
 import MultiTechnology from './components/MultiTechnology';
@@ -10,11 +8,8 @@ import { slides } from './components/Testimonials';
 export default function Home() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
-      <Presentation />
       <main className="flex min-h-screen flex-col items-center justify-center">
+        <Presentation />
         <section className="min-w-full">
           <div className="min-w-full">
             <Section />
@@ -27,9 +22,6 @@ export default function Home() {
           </div>
           <Carousel slides={slides} />
         </section>
-        <div className="min-w-full pt-72">
-          <Footer />
-        </div>
       </main>
     </>
   );
