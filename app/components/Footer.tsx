@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Logo from './Logo';
 import SocialMediaIcons from './SocialMediaIcons';
 import Triangles from './Triangles';
@@ -15,27 +16,27 @@ export default function Footer() {
           <div>
             <nav className="flex pt-20 pr-44 pb-8 pl-10 md:max-xl:pr-16">
               <ul className="flex">
-                <li className="p-2 text-xl uppercase">
-                  <a href="/">Quem Somos</a>
+                <li className="p-2 text-xl text-white uppercase">
+                  <Link href="/aboutus">Quem Somos</Link>
                 </li>
-                <li className="p-2 text-xl uppercase">
-                  <a href="/">Serviços</a>
+                <li className="p-2 text-xl text-white uppercase">
+                  <Link href="/services">Serviços</Link>
                 </li>
-                <li className="p-2 text-xl uppercase">
-                  <a href="/">Projetos</a>
+                <li className="p-2 text-xl text-white uppercase">
+                  <Link href="/projects">Projetos</Link>
                 </li>
-                <li className="p-2 text-xl uppercase">
-                  <a href="/">Carreira</a>
+                <li className="p-2 text-xl text-white uppercase">
+                  <Link href="/career">Carreira</Link>
                 </li>
-                <li className="p-2 text-xl uppercase">
-                  <a href="/">Blog</a>
+                <li className="p-2 text-xl text-white uppercase">
+                  <Link href="/blog">Blog</Link>
                 </li>
-                <li className="p-2 text-xl uppercase">
-                  <a href="/">Contato</a>
+                <li className="p-2 text-xl text-white uppercase">
+                  <Link href="/contact">Contato</Link>
                 </li>
               </ul>
             </nav>
-            <div className="flex justify-between text-xl border-t-4 border-lightBlue pt-10 pr-40 pb-10 pl-10  md:max-xl:pr-20">
+            <div className="flex justify-between text-xl text-white border-t-4 border-lightBlue pt-10 pr-40 pb-10 pl-10  md:max-xl:pr-20">
               <div className="pl-2">
                 <h3 className="20px">{contact}</h3>
                 <a
