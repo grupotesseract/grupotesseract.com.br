@@ -28,6 +28,7 @@ module.exports = {
     colors: {
       lightBlue: '#23AFB3',
       gray: '#D9D9D9',
+      grayScale: '#202020',
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
