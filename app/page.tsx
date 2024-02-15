@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Section from './components/Section';
 import TeamInformation from './components/TeamInformation';
 import MultiTechnology from './components/MultiTechnology';
+import Carousel from './components/Carousel';
+import { slides } from './components/Testimonials';
 
 export default function Home() {
   return (
@@ -23,6 +25,7 @@ export default function Home() {
           <div className="min-w-full">
             <TeamInformation />
           </div>
+          <Carousel slides={slides} />
         </section>
         <div className="min-w-full pt-72">
           <Footer />
