@@ -11,11 +11,12 @@ export default function CompanyCulture() {
         <div className="flex flex-col gap-16 relative">
           <div className="culture-text flex">
             <p className="font-extrabold">
-              &quot;Estamos procurando uma{' '}
+              &quot;Estamos procurando uma
+              <br />
               <span className="uppercase text-lightBlue">
-                {' '}
-                forma mais humana{' '}
+                forma mais humana
               </span>
+              <br />
               de desenvolver softwares &quot;
             </p>
           </div>

@@ -37,10 +37,8 @@ module.exports = {
         },
     },
     fontSize: {
-      '2lg': ['2rem',{
-        lineHeight: '2.4rem'
-      } ],
-      },
+      '2lg': ['2rem', { lineHeight: '2.4rem' }],
+    },
     keyframes: {
       'animar-cursor': {
         '0%': {

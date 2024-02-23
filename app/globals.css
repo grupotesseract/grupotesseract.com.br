@@ -118,7 +118,10 @@ body {
   gap: 7.5rem;
 }
 
-.technology-text {
+.technology-text, 
+.culture-title, 
+.culture-text p, 
+.culture-description {
   line-height: normal;
 }
 
@@ -131,7 +134,6 @@ body {
 
 .culture-title {
   font-size: 5rem;
-  line-height: normal;
   font-weight: 800;
   padding-right: 3rem;
 }
@@ -148,18 +150,16 @@ body {
 }
 
 .culture-text {
-  text-shadow: 0.1em 0.1em 0.2em rgb(49, 48, 48)
+  text-shadow: 0.1em 0.5em 0.4em rgba(0, 0, 0, 0.25)
 }
 
 .culture-text p {
   width: 30.785rem;
   font-size: 2.5rem;
-  line-height: normal;
 }
 
 .culture-description {
   width: 46rem;
   height: 7.125rem;
   font-size: 2rem;
-  line-height: normal;
 }

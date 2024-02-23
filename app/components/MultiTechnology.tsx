@@ -111,28 +111,25 @@ export default function MultiTechnology() {
     },
   ];
 
-  const renderRow = (line: number | undefined) => {
-    return allLogos
+  const renderRow = (line?: number) =>
+    allLogos
       .filter((logoItem) => logoItem.line === line)
-      .map(function (item) {
-        return (
-          <Logotypes
-            logo={item.logo}
-            logoName={item.logoName}
-            logoClass={item.logoClass}
-            size={item.size}
-            width={item.width}
-            height={item.height}
-            key={item.key}
-          />
-        );
-      });
-  };
+      .map((item) => (
+        <Logotypes
+          logo={item.logo}
+          logoName={item.logoName}
+          logoClass={item.logoClass}
+          size={item.size}
+          width={item.width}
+          height={item.height}
+          key={item.key}
+        />
+      ));
 
   return (
-    <div className="flex justify-center my-60 w-screen h-404">
+    <div className="flex justify-center my-60 h-404">
       <div className="flex flex-col justify-center pr-20 relative">
-        <h1 className="text-lightBlue font-semibold text-4xl pb-8">Trabalho</h1>
+        <h1 className="text-lightBlue font-semibold text-4xl pb-6">Trabalho</h1>
         <h1 className="technology-text w-96 text-5xl font-extrabold uppercase">
           Múltiplas Tecnologias
         </h1>
