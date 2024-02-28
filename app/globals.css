@@ -117,3 +117,15 @@ body {
   height: 31.25rem;
   gap: 7.5rem;
 }
+
+.title-page {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.box-title {
+  width: 95%;
+  height: 26rem;
+  margin-top: 5rem;
+  background-color: rgb(41, 41, 41);
+}
