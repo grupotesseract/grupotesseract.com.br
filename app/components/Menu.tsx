@@ -30,7 +30,7 @@ export default function Menu() {
   }, []);
 
   return (
-    <div className="flex justify-end h-screen w-screen">
+    <div className="flex justify-end">
       <div
         className={!openMenu ? 'pt-16 pr-36 pb-24' : 'hidden'}
         onClick={toglleMenu}
