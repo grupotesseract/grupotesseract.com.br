@@ -1,4 +1,5 @@
 import PageTitle from '../components/PageTitle';
+import PreContentText from '../components/PreContentText';
 import TeamInformation from '../components/TeamInformation';
 
 const boxData = [
@@ -28,6 +29,7 @@ export default function Services() {
             />
           );
         })}
+        <PreContentText />
       </div>
       <div className="min-w-full">
         <TeamInformation />
