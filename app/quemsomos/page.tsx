@@ -1,7 +1,9 @@
+import TeamMemberList from '../components/TeamMemberList';
+
 export default function AboutUs() {
   return (
     <>
-      <div>Quem Somos</div>
+      <TeamMemberList />
     </>
   );
 }

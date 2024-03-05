@@ -137,3 +137,37 @@ body {
   font-size: 2.5rem;
   font-weight: 400;
 }
+
+.team-title {
+  width: 100%;
+  padding-top: 5rem;
+  padding-left: 9rem;
+  font-size: 5rem;
+}
+
+.box-card {
+  width: 30rem;
+  height: 28rem;
+  margin-top: 4rem;
+  padding: 1.5rem 1.25rem;
+  background-color: rgb(48, 48, 48);
+}
+
+.team-name {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.team-position {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.team-description {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+}
