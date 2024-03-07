@@ -9,7 +9,7 @@
 },
 {
     "id": 2,
-    "imageUrl": "",
+    "imageUrl": "/assets/image/renato.jpeg",
     "imageName": "foto do Thiago Braga",
     "name": "Thiago Braga",
     "position": "CEO Vice",
@@ -17,7 +17,7 @@
 },
 {
     "id": 3,
-    "imageUrl": "",
+    "imageUrl": "/assets/image/karenPhoto.png",
     "imageName": "foto da Wasleny",
     "name": "Wasleny",
     "position": "Desenvolvedor Back-End",
@@ -26,8 +26,8 @@
 {
     "id": 4,
     "imageUrl": "/assets/image/karenPhoto.png",
-    "imageName": "foto da Karen Keiko",
-    "name": "Karen Keiko",
+    "imageName": "foto da Karen Nascimento",
+    "name": "Karen Nascimento",
     "position": "Desenvolvedor Front-End Traniee",
     "description": "Descrição sobre a pessoa para tornar mais próximo esse contato. Mais amigável e acessível. Descrição sobre a pessoal para tornar mais próximo esse contato. Mais amigável e acessível. Descrição sobre a pessoal para tornar mais próximo esse contato. Mais amigável e acessível."
 }

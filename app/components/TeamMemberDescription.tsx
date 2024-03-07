@@ -9,7 +9,7 @@ export default function TeamMemberDescription(
   props: TeamMemberDescriptionProps
 ) {
   return (
-    <div className="team-description w-96">
+    <div className="team-description">
       <p>{props.description}</p>
     </div>
   );
