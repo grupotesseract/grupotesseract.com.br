@@ -9,15 +9,19 @@ import Testimonials from './Testimonials';
 export default function Carousel({ slides }: { slides: any[] }) {
   const [current, setCurrent] = useState(0);
 
-  useEffect(() => { setCurrent(current) }, [current]);
+  useEffect(() => {
+    setCurrent(current);
+  }, [current]);
 
-  const previousSlide = () => setCurrent((current === 0 ? slides.length : current) - 1)
-  const nextSlide = () => setCurrent(current === slides.length - 1 ? 0 : current + 1)
+  const previousSlide = () =>
+    setCurrent((current === 0 ? slides.length : current) - 1);
+  const nextSlide = () =>
+    setCurrent(current === slides.length - 1 ? 0 : current + 1);
 
   return (
     <div className="box-carousel">
       <div className="flex relative overflow-hidden snap-center">
-        <div className="flex justify-between items-center h-screen max-w-full bottom-80 text-white text-3xl">
+        <div className="flex justify-between items-center max-w-full bottom-80 text-white text-3xl">
           <button onClick={previousSlide} className="z-10">
             <Image
               src={navigatePrevious}
@@ -27,7 +31,10 @@ export default function Carousel({ slides }: { slides: any[] }) {
             />
           </button>
           {/* 57.5 is the sum of the testimonial-box width + gap. Keep units consistent do not ue 100%, use rem */}
-          <div className="carousel" style={{ transform: `translateX(-${(current * 57.5)}rem)` }}>
+          <div
+            className="carousel"
+            style={{ transform: `translateX(-${current * 57.5}rem)` }}
+          >
             <Testimonials />
           </div>
           <button onClick={nextSlide} className="z-10">
@@ -45,7 +52,11 @@ export default function Carousel({ slides }: { slides: any[] }) {
             <div
               className="circle"
               onClick={() => setCurrent(i)}
-              style={{ backgroundColor: `rgba(${i === current ? '35, 175, 179, 1' : '35, 175, 179, 0.5'})` }}
+              style={{
+                backgroundColor: `rgba(${
+                  i === current ? '35, 175, 179, 1' : '35, 175, 179, 0.5'
+                })`,
+              }}
               key={`circle-${i}`}
             />
           ))}
