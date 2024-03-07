@@ -170,3 +170,69 @@ body {
   height: 7.125rem;
   font-size: 2rem;
 }
+
+.technology-text, 
+.culture-title, 
+.culture-text p, 
+.culture-description {
+  line-height: normal;
+}
+
+.culture-box {
+  width: 100vw;
+  padding-top: 17rem;
+  padding-left: 10rem;
+  position: relative;
+}
+
+.culture-title {
+  font-size: 5rem;
+  font-weight: 800;
+  padding-right: 3rem;
+}
+
+.box {
+  display: flex;
+  background-color: rgb(64, 64, 64);
+  width: 40rem;
+  height: 37rem;
+  top: 22rem;
+  right: 0;
+  border-radius: 0rem;
+  position: absolute;
+}
+
+.culture-text {
+  text-shadow: 0.1em 0.5em 0.4em rgba(0, 0, 0, 0.25)
+}
+
+.culture-text p {
+  width: 30.785rem;
+  font-size: 2.5rem;
+}
+
+.culture-description {
+  width: 46rem;
+  height: 7.125rem;
+  font-size: 2rem;
+}
+
+.title-page {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.box-title {
+  width: 95%;
+  height: 26rem;
+  margin-top: 5rem;
+  background-color: rgb(41, 41, 41);
+}
+
+.box-pre-text {
+  width: 53rem;
+  margin-top: 6.25rem;
+  padding-left: 8rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
