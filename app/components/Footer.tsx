@@ -17,22 +17,22 @@ export default function Footer() {
             <nav className="flex pt-20 pr-44 pb-8 pl-10 md:max-xl:pr-16">
               <ul className="flex">
                 <li className="p-2 text-xl text-white uppercase">
-                  <Link href="/aboutus">Quem Somos</Link>
+                  <Link href="/quemsomos">Quem Somos</Link>
                 </li>
                 <li className="p-2 text-xl text-white uppercase">
-                  <Link href="/services">Serviços</Link>
+                  <Link href="/servicos">Serviços</Link>
                 </li>
                 <li className="p-2 text-xl text-white uppercase">
-                  <Link href="/projects">Projetos</Link>
+                  <Link href="/projetos">Projetos</Link>
                 </li>
                 <li className="p-2 text-xl text-white uppercase">
-                  <Link href="/career">Carreira</Link>
+                  <Link href="/carreira">Carreira</Link>
                 </li>
                 <li className="p-2 text-xl text-white uppercase">
                   <Link href="/blog">Blog</Link>
                 </li>
                 <li className="p-2 text-xl text-white uppercase">
-                  <Link href="/contact">Contato</Link>
+                  <Link href="/contato">Contato</Link>
                 </li>
               </ul>
             </nav>
