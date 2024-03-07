@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-
 interface PageTitleProps {
   subtitle1?: string;
   subtitle2?: string;
@@ -10,7 +9,7 @@ interface PageTitleProps {
   title?: string;
 }
 
-const PageTitle = (props: PageTitleProps) => {
+export default function PageTitle(props: PageTitleProps) {
   return (
     <>
       <div className="box-title flex">
@@ -33,6 +32,4 @@ const PageTitle = (props: PageTitleProps) => {
       </div>
     </>
   );
-};
-
-export default PageTitle;
+}
