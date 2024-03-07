@@ -9,9 +9,7 @@ export default function Menu() {
   const [openMenu, setOpenMenu] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  const toglleMenu = () => {
-    setOpenMenu(!openMenu);
-  };
+  const toggleMenu = () => setOpenMenu(!openMenu);
 
   useEffect(() => {
     function handleClickOutside(e: { target: any }) {
@@ -33,7 +31,7 @@ export default function Menu() {
     <div className="flex justify-end">
       <div
         className={!openMenu ? 'pt-16 pr-36 pb-24' : 'hidden'}
-        onClick={toglleMenu}
+        onClick={toggleMenu}
       >
         <Image src={iconMenu} alt="menu" width={50} height={50} />
       </div>
@@ -63,37 +61,37 @@ export default function Menu() {
             >
               <ul className="flex flex-col justify-between mt-48 relative">
                 <li
-                  onClick={toglleMenu}
+                  onClick={toggleMenu}
                   className="text-white text-3xl font-black my-2 uppercase"
                 >
                   <Link href="/quemsomos">Quem Somos</Link>
                 </li>
                 <li
-                  onClick={toglleMenu}
+                  onClick={toggleMenu}
                   className="text-white text-3xl font-black my-2 uppercase"
                 >
                   <Link href="/servicos">Serviços</Link>
                 </li>
                 <li
-                  onClick={toglleMenu}
+                  onClick={toggleMenu}
                   className="text-white text-3xl font-black my-2 uppercase"
                 >
                   <Link href="/projetos">Projetos</Link>
                 </li>
                 <li
-                  onClick={toglleMenu}
+                  onClick={toggleMenu}
                   className="text-white text-3xl font-black my-2 uppercase"
                 >
                   <Link href="/carreira">Carreira</Link>
                 </li>
                 <li
-                  onClick={toglleMenu}
+                  onClick={toggleMenu}
                   className="text-white text-3xl font-black my-2 uppercase"
                 >
                   <Link href="/blog">Blog</Link>
                 </li>
                 <li
-                  onClick={toglleMenu}
+                  onClick={toggleMenu}
                   className="text-white text-3xl font-black my-2 uppercase"
                 >
                   <Link href="/contato">Contato</Link>
