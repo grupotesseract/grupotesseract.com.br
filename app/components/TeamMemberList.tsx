@@ -1,9 +1,7 @@
-import { getTeamMembers } from '../../utils/teamMembers';
+import teamMembers from '../../data/team-information.json';
 import TeamCardMember from './TeamCardMember';
 
 export default function TeamMemberList() {
-  const teamMembers = getTeamMembers();
-
   return (
     <>
       <h1 className="team-title flex font-extrabold uppercase">Equipe</h1>
