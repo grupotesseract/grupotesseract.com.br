@@ -12,16 +12,14 @@ const boxData = [
 export default function Projects() {
   return (
     <>
-      {boxData.map(function (item) {
-        return (
-          <PageTitle
-            subtitle1={item.subtitle1}
-            subtitleClass={item.subtitleClass}
-            title={item.title}
-            key={item.key}
-          />
-        );
-      })}
+      {boxData.map((item) => (
+        <PageTitle
+          subtitle1={item.subtitle1}
+          subtitleClass={item.subtitleClass}
+          title={item.title}
+          key={item.key}
+        />
+      ))}
     </>
   );
 }

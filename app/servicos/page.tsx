@@ -17,18 +17,16 @@ export default function Services() {
   return (
     <>
       <div>
-        {boxData.map(function (item) {
-          return (
-            <PageTitle
-              subtitle1={item.subtitle1}
-              subtitle2={item.subtitle2}
-              subtitle3={item.subtitle3}
-              subtitleClass={item.subtitleClass}
-              title={item.title}
-              key={item.key}
-            />
-          );
-        })}
+        {boxData.map((item) => (
+          <PageTitle
+            subtitle1={item.subtitle1}
+            subtitle2={item.subtitle2}
+            subtitle3={item.subtitle3}
+            subtitleClass={item.subtitleClass}
+            title={item.title}
+            key={item.key}
+          />
+        ))}
         <PreContentText />
       </div>
       <div className="min-w-full">
