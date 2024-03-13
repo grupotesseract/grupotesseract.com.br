@@ -133,26 +133,22 @@ body {
 }
 
 .culture-box {
-  width: 100vw;
+  gap: 6rem;
   padding-top: 17rem;
-  padding-left: 10rem;
   position: relative;
 }
 
 .culture-title {
   font-size: 5rem;
   font-weight: 800;
-  padding-right: 3rem;
 }
 
 .box {
-  display: flex;
   background-color: rgb(64, 64, 64);
   width: 40rem;
   height: 37rem;
   top: 22rem;
   right: 0;
-  border-radius: 0rem;
   position: absolute;
 }
 
@@ -166,7 +162,7 @@ body {
 }
 
 .culture-description {
-  width: 46rem;
+  width: 38rem;
   height: 7.125rem;
   font-size: 2rem;
 }
@@ -205,6 +201,12 @@ body {
   background-color: rgb(48, 48, 48);
 }
 
+.image-card {
+  width: 9.875rem;
+  height: 9.375rem;
+  margin: 1rem;
+}
+
 .team-name {
   font-size: 2rem;
   font-weight: 700;
@@ -221,11 +223,17 @@ body {
   width: 27rem;
   font-size: 1.25rem;
   font-weight: 400;
-  margin-top: 2rem;
   padding-left: 1.5rem;
 }
 
 .team-name, .team-position, .team-description {
-  color: white;
+  color: rgb(217, 217, 217);
   line-height: normal;
+}
+
+.button-team {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgb(41, 41, 41);
+  margin-right: 3rem;
 }
