@@ -8,12 +8,13 @@ interface TeamMemberImageProps {
   imageName: string;
   width: number;
   height: number;
+  imageClass?: string;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function TeamMemberImage(props: TeamMemberImageProps) {
   return (
-    <div className="flex justify-center">
+    <div className={`${props.imageClass} flex justify-center items-center`}>
       <Image
         src={props.imageUrl}
         alt={props.imageName}
