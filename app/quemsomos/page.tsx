@@ -5,7 +5,7 @@ import TextWithButton from '../components/TextWithButton';
 export default function AboutUs() {
   return (
     <>
-      <div className="container">
+      <div>
         <CompanyCulture />
         <TeamMemberList />
         <TextWithButton />
