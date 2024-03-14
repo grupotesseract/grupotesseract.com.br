@@ -236,3 +236,10 @@ body {
   font-size: 2.5rem;
   font-weight: 400;
 }
+
+.title-contact {
+  font-size: 4.688rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
