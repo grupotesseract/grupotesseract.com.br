@@ -236,3 +236,17 @@ body {
   font-size: 2.5rem;
   font-weight: 400;
 }
+
+.box-service-2 {
+  width: 35rem;
+  height: 14rem;
+  right: -12rem;
+  bottom: 2.125rem;
+  background-color: rgb(31, 31, 31);
+}
+
+.text-box-service {
+  width: 40rem;
+  position: absolute;
+  align-items: center;
+}
