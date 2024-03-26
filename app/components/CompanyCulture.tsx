@@ -2,14 +2,14 @@ export default function CompanyCulture() {
   return (
     <>
       <div className="box flex"></div>
-      <div className="culture-box flex justify-evenly items-end w-screen">
-        <div className="flex justify-end w-80">
+      <div className="culture-box flex justify-center items-end">
+        <div className="flex">
           <h1 className="culture-title uppercase text-white">
             Grupo <br /> Tesseract
           </h1>
         </div>
-        <div className="flex flex-col gap-16 relative">
-          <div className="culture-text flex">
+        <div className="flex flex-col justify-center items-start gap-16 relative">
+          <div className="culture-text flex mr-16">
             <p className="font-extrabold">
               &quot;Estamos procurando uma
               <br />
