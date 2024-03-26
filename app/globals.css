@@ -226,6 +226,20 @@ body {
   padding-left: 1.5rem;
 }
 
+.box-pre-text {
+  width: 53rem;
+  margin-top: 6.25rem;
+  padding-left: 8rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.title-contact {
+  font-size: 4.688rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  
 .team-name, .team-position, .team-description {
   color: rgb(217, 217, 217);
   line-height: normal;
@@ -236,4 +250,5 @@ body {
   font-weight: 700;
   color: rgb(41, 41, 41);
   margin-right: 3rem;
+
 }
