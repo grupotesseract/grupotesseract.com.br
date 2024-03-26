@@ -133,26 +133,22 @@ body {
 }
 
 .culture-box {
-  width: 100vw;
+  gap: 6rem;
   padding-top: 17rem;
-  padding-left: 10rem;
   position: relative;
 }
 
 .culture-title {
   font-size: 5rem;
   font-weight: 800;
-  padding-right: 3rem;
 }
 
 .box {
-  display: flex;
   background-color: rgb(64, 64, 64);
   width: 40rem;
   height: 37rem;
   top: 22rem;
   right: 0;
-  border-radius: 0rem;
   position: absolute;
 }
 
@@ -166,53 +162,7 @@ body {
 }
 
 .culture-description {
-  width: 46rem;
-  height: 7.125rem;
-  font-size: 2rem;
-}
-
-.technology-text, 
-.culture-title, 
-.culture-text p, 
-.culture-description {
-  line-height: normal;
-}
-
-.culture-box {
-  width: 100vw;
-  padding-top: 17rem;
-  padding-left: 10rem;
-  position: relative;
-}
-
-.culture-title {
-  font-size: 5rem;
-  font-weight: 800;
-  padding-right: 3rem;
-}
-
-.box {
-  display: flex;
-  background-color: rgb(64, 64, 64);
-  width: 40rem;
-  height: 37rem;
-  top: 22rem;
-  right: 0;
-  border-radius: 0rem;
-  position: absolute;
-}
-
-.culture-text {
-  text-shadow: 0.1em 0.5em 0.4em rgba(0, 0, 0, 0.25)
-}
-
-.culture-text p {
-  width: 30.785rem;
-  font-size: 2.5rem;
-}
-
-.culture-description {
-  width: 46rem;
+  width: 38rem;
   height: 7.125rem;
   font-size: 2rem;
 }
@@ -237,9 +187,68 @@ body {
   font-weight: 400;
 }
 
+.team-title {
+  width: 100%;
+  padding-top: 5rem;
+  font-size: 5rem;
+}
+
+.box-card {
+  width: 30rem;
+  height: 28rem;
+  margin-top: 4rem;
+  padding: 1.5rem 1.25rem;
+  background-color: rgb(48, 48, 48);
+}
+
+.image-card {
+  width: 9.875rem;
+  height: 9.375rem;
+  margin: 1rem;
+}
+
+.team-name {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.team-position {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.team-description {
+  width: 27rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-left: 1.5rem;
+}
+
+.box-pre-text {
+  width: 53rem;
+  margin-top: 6.25rem;
+  padding-left: 8rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
 .title-contact {
   font-size: 4.688rem;
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(255, 255, 255);
+  
+.team-name, .team-position, .team-description {
+  color: rgb(217, 217, 217);
+  line-height: normal;
+}
+
+.button-team {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgb(41, 41, 41);
+  margin-right: 3rem;
+
 }
