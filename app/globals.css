@@ -239,7 +239,8 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(255, 255, 255);
-  
+}
+
 .team-name, .team-position, .team-description {
   color: rgb(217, 217, 217);
   line-height: normal;

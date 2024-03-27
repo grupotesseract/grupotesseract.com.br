@@ -1,3 +1,6 @@
+import FormContact from '../components/FormContact';
+import TextPageContact from '../components/TextPageContact';
+
 export default function Contact() {
   return (
     <>
@@ -8,6 +11,10 @@ export default function Contact() {
           </h3>
         </div>
         <h1 className="title-contact flex">Quando é a nossa reunião?</h1>
+      </div>
+      <div className="flex items-baseline gap-32">
+        <TextPageContact />
+        <FormContact />
       </div>
     </>
   );
