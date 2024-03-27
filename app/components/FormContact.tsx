@@ -37,7 +37,7 @@ export default function FormContact() {
 
     console.log(formData);
 
-    const endpoint = '/api/contact.ts';
+    const endpoint = '/api/contact';
 
     try {
       const response = await fetch(endpoint, {
