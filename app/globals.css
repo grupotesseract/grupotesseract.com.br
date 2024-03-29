@@ -234,12 +234,26 @@ body {
   font-weight: 400;
 }
 
+.box-service-2 {
+  width: 35rem;
+  height: 14rem;
+  right: -12rem;
+  bottom: 2.125rem;
+  background-color: rgb(31, 31, 31);
+}
+
+.text-box-service {
+  width: 40rem;
+  position: absolute;
+  align-items: center;
+}
 .title-contact {
   font-size: 4.688rem;
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(255, 255, 255);
-  
+}
+
 .team-name, .team-position, .team-description {
   color: rgb(217, 217, 217);
   line-height: normal;
