@@ -12,7 +12,7 @@ export default function Contact() {
         </div>
         <h1 className="title-contact flex">Quando é a nossa reunião?</h1>
       </div>
-      <div className="flex items-baseline gap-32">
+      <div className="box-form flex items-baseline gap-32">
         <TextPageContact />
         <FormContact />
       </div>

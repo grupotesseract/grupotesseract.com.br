@@ -1,6 +1,6 @@
 export default function TextPageContact() {
   return (
-    <div className="flex flex-col w-480 mt-48 pl-32 gap-36">
+    <div className="flex flex-col w-480 mt-48 pl-32 gap-24 lg:pl-24">
       <div className="flex flex-col">
         <h1 className="text-4xl font-bold uppercase text-lightBlue">
           Entre em contato

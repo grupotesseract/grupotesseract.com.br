@@ -1,7 +1,6 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
-
 interface FormContactProps {
   name: string;
   placeholder?: string;
@@ -68,35 +67,40 @@ export default function FormContact() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex flex-col gap-4 w-490 text-neutral-600">
+      <div className="flex flex-col items-end gap-4">
         <input
           type="text"
           name="name"
-          placeholder="Nome Completo"
+          placeholder="*Nome Completo"
           onChange={handleChange}
-          className="focus:outline-none"
+          className="bg-gray focus:outline-none"
         />
         <input
           type="text"
           name="company"
           placeholder="Empresa"
           onChange={handleChange}
-          className="focus:outline-none"
+          className="bg-gray focus:outline-none"
         />
         <input
           type="email"
           name="email"
-          placeholder="E-mail"
+          placeholder="*E-mail"
           onChange={handleChange}
-          className="focus:outline-none"
+          className="bg-gray focus:outline-none"
         />
         <textarea
           name="comment"
           placeholder="*Comente um pouco sobre como podemos te ajudar"
           onChange={handleChange}
-          className="h-52 focus:outline-none"
+          className="coment bg-gray focus:outline-none"
         />
-        <button>Enviar</button>
+        <button
+          type="submit"
+          className="button-submit text-2xl font-normal uppercase hover:bg-slate-400"
+        >
+          Enviar
+        </button>
       </div>
     </form>
   );
