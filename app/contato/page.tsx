@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="flex flex-col justify-center mt-48 pl-36">
         <div>
           <h3 className="flex text-lightBlue text-4xl font-bold uppercase">
-            Vamos comversar
+            Vamos conversar
           </h3>
         </div>
         <h1 className="title-contact flex">Quando é a nossa reunião?</h1>
