@@ -18,14 +18,14 @@
 
 body {
   color: white;
-  background: black
+  background: black;
 }
 
 .menu-nav {
   padding-top: 8rem;
   padding-bottom: 9rem;
   padding-left: 5rem;
-  background-color: rgb(38, 38,38);
+  background-color: rgb(38, 38, 38);
 }
 
 .content {
@@ -60,7 +60,6 @@ body {
 .dash {
   width: 20.375rem;
   border-width: 2px;
-
 }
 
 .triangle1 {
@@ -69,7 +68,7 @@ body {
   height: 404px;
   border-style: solid;
   border-width: 0px 100px 105px 0;
-  border-color: transparent transparent rgba(255, 255, 255, 0.05)  transparent;
+  border-color: transparent transparent rgba(255, 255, 255, 0.05) transparent;
   z-index: 0;
 }
 
@@ -79,7 +78,7 @@ body {
   height: 404px;
   border-style: solid;
   border-width: 0px 200px 190px 0;
-  border-color: transparent transparent rgba(255, 255, 255, 0.05)  transparent;
+  border-color: transparent transparent rgba(255, 255, 255, 0.05) transparent;
   z-index: 2;
 }
 
@@ -125,9 +124,9 @@ body {
   gap: 7.5rem;
 }
 
-.technology-text, 
-.culture-title, 
-.culture-text p, 
+.technology-text,
+.culture-title,
+.culture-text p,
 .culture-description {
   line-height: normal;
 }
@@ -153,7 +152,7 @@ body {
 }
 
 .culture-text {
-  text-shadow: 0.1em 0.5em 0.4em rgba(0, 0, 0, 0.25)
+  text-shadow: 0.1em 0.5em 0.4em rgba(0, 0, 0, 0.25);
 }
 
 .culture-text p {
@@ -254,7 +253,9 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.team-name, .team-position, .team-description {
+.team-name,
+.team-position,
+.team-description {
   color: rgb(217, 217, 217);
   line-height: normal;
 }
@@ -264,5 +265,55 @@ body {
   font-weight: 700;
   color: rgb(41, 41, 41);
   margin-right: 3rem;
+}
 
+.coment {
+  width: 43.125rem;
+  height: 12.25rem;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 43.125rem;
+  height: 3.5rem;
+  padding-left: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.button-submit {
+  display: flex;
+  justify-content: center;
+  width: 13rem;
+  height: 3.125rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  background-color: rgb(217, 217, 217);
+  color: rgb(0, 0, 0);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(85, 85, 85);
+}
+
+@media (min-width: 1480px) {
+  .box-form {
+    gap: 11rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .box-form {
+    gap: 6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box-form {
+    flex-direction: column;
+    padding-left: 10rem;
+  }
 }
