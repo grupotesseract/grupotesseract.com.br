@@ -38,7 +38,7 @@ export default function Menu() {
 
       {openMenu && (
         <>
-          <div className="flex justify-end w-screen relative z-30">
+          <div className="flex justify-end w-screen h-screen fixed z-30">
             <div className="bg-lightBlue bg-opacity-80 w-2/3 blur-1"></div>
             <button
               className="flex absolute w-24 h-24 m-8"
