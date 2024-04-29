@@ -19,7 +19,7 @@ export default function Carousel({ slides }: { slides: any[] }) {
     setCurrent(current === slides.length - 1 ? 0 : current + 1);
 
   return (
-    <div className="box-carousel">
+    <div className="box-carousel w-screen">
       <div className="flex relative overflow-hidden snap-center">
         <div className="flex justify-between items-center max-w-full bottom-80 text-white text-3xl">
           <button onClick={previousSlide} className="z-10">
