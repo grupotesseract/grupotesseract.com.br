@@ -29,7 +29,7 @@ body {
 }
 
 .content {
-  width: 100%;
+  width: 100vw;
   height: 34.375rem;
   margin-top: 3rem;
 }
@@ -37,7 +37,6 @@ body {
 .style-title {
   width: 100%;
   padding-top: 5rem;
-  padding-left: 9rem;
   padding-bottom: 1.25rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -46,13 +45,12 @@ body {
 .typewriter {
   width: 100%;
   height: 35rem;
-  padding-left: 9rem;
   color: white;
   font-weight: 900;
 }
 
 .style-text {
-  width: 30rem;
+  width: 18rem;
   padding-top: 4rem;
   padding-bottom: 1.75rem;
 }
@@ -144,7 +142,6 @@ body {
 
 .box {
   background-color: rgb(64, 64, 64);
-  width: 40rem;
   height: 37rem;
   top: 22rem;
   right: 0;
@@ -261,7 +258,7 @@ body {
 }
 
 .button-team {
-  font-size: 1.75rem;
+  font-size: 1rem;
   font-weight: 700;
   color: rgb(41, 41, 41);
   margin-right: 3rem;
@@ -307,7 +304,7 @@ textarea::placeholder {
 
 @media (max-width: 1300px) {
   .box-form {
-    gap: 6rem;
+    gap: 4rem;
   }
 }
 
