@@ -67,7 +67,7 @@ export default function FormContact() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex flex-col items-end gap-4">
+      <div className="flex flex-col justify-center items-center lg:items-end gap-4">
         <input
           type="text"
           name="name"
@@ -97,7 +97,7 @@ export default function FormContact() {
         />
         <button
           type="submit"
-          className="button-submit text-2xl font-normal uppercase hover:bg-slate-400"
+          className="button-submit mt-6 text-2xl font-normal uppercase hover:bg-slate-400 lg:mt-12"
         >
           Enviar
         </button>
