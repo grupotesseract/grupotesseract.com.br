@@ -30,7 +30,7 @@ export default function Menu() {
   return (
     <div className="flex justify-end">
       <div
-        className={!openMenu ? 'pt-16 pr-36 pb-24' : 'hidden'}
+        className={!openMenu ? 'pt-16 pr-12 pb-24 lg:pr-36' : 'hidden'}
         onClick={toggleMenu}
       >
         <Image src={iconMenu} alt="menu" width={50} height={50} />
