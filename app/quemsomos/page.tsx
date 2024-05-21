@@ -1,5 +1,5 @@
 import CompanyCulture from '../components/CompanyCulture';
-import IconText from '../components/IconText';
+import IconText from '@/components/IconText';
 import TeamMemberList from '../components/TeamMemberList';
 import TextWithButton from '../components/TextWithButton';
 import contact from '@/assets/image/contact.svg';

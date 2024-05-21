@@ -1,4 +1,4 @@
-import IconText from '../components/IconText';
+import IconText from '@/components/IconText';
 import contact from '@/assets/image/contact.svg';
 
 export default function Career() {
