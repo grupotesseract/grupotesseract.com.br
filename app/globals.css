@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-  width: 100vw;
+  width: 90vw;
   height: 34.375rem;
   margin-top: 3rem;
 }
@@ -159,11 +159,6 @@ body {
   width: 38rem;
   height: 7.125rem;
   font-size: 2rem;
-}
-
-.title-page {
-  font-size: 5rem;
-  text-transform: uppercase;
 }
 
 .box-title {

@@ -26,10 +26,10 @@ export default function Presentation() {
   return (
     <>
       <div className="content flex flex-col items-start p-1">
-        <h2 className="style-title flex flex-col justify-start items-start text-base lg:text-xl text-lightBlue lg:pl-36">
+        <h2 className="style-title flex flex-col justify-start items-start text-base lg:text-xl text-lightBlue lg:pl-16">
           Sites. Sistemas. Aplicativos.
         </h2>
-        <div className="typewriter flex flex-col justify-start items-start text-3xl lg:text-5xl lg:pl-36">
+        <div className="typewriter flex flex-col justify-start items-start text-3xl lg:text-5xl lg:pl-16">
           {sectionData.map(function (item) {
             return (
               <Typewriter

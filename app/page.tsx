@@ -7,7 +7,7 @@ import { slides } from './components/Testimonials';
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col items-center justify-center container m-auto">
+      <main className="flex flex-col items-center justify-center">
         <Presentation />
         <section className="w-auto">
           <Section />
