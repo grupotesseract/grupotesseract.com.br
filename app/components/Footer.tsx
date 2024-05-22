@@ -36,7 +36,7 @@ export default function Footer() {
                 </li>
               </ul>
             </nav>
-            <div className="flex flex-col justify-between text-xl text-white border-t-4 border-lightBlue pt-2 gap-2 lg:flex-row lg:pt-10 lg:pr-40 lg:pb-10 lg:pl-10 xl:pr-20">
+            <div className="flex flex-col justify-between text-xl text-center text-white pt-2 gap-2 lg:flex-row lg:pt-10 lg:pr-40 lg:pb-10 lg:pl-10 xl:pr-20 lg:border-lightBlue lg:border-t-4">
               <div className="pl-2">
                 <h3 className="20px">{contact}</h3>
                 <a
