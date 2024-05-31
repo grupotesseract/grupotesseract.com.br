@@ -9,7 +9,7 @@ export default function TextPageContact() {
           contato@grupotesseract.com.br
         </p>
       </div>
-      <div className="flex text-xl p-2 md:text-2xl font-normal text-white">
+      <div className="flex text-xl p-2 text-center font-normal text-white md:text-2xl xl:text-start">
         Vamos unir forças para transformar seu negócio e inovar. Preencha o
         formulário para falar com nosso time de vendas e entender como nossos
         especialistas podem te ajudar a superar seus desafios.
