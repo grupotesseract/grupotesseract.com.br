@@ -129,12 +129,10 @@ body {
 
 .culture-box {
   gap: 6rem;
-  padding-top: 17rem;
   position: relative;
 }
 
 .culture-title {
-  font-size: 5rem;
   font-weight: 800;
 }
 
@@ -151,14 +149,11 @@ body {
 }
 
 .culture-text p {
-  width: 30.785rem;
   font-size: 2.5rem;
 }
 
 .culture-description {
-  width: 38rem;
   height: 7.125rem;
-  font-size: 2rem;
 }
 
 .box-title {
@@ -175,11 +170,9 @@ body {
 .team-title {
   width: 100%;
   padding-top: 5rem;
-  font-size: 5rem;
 }
 
 .box-card {
-  width: 30rem;
   height: 28rem;
   margin-top: 4rem;
   padding: 1.5rem 1.25rem;
@@ -189,7 +182,6 @@ body {
 .image-card {
   width: 9.875rem;
   height: 9.375rem;
-  margin: 1rem;
 }
 
 .team-name {
@@ -205,10 +197,8 @@ body {
 }
 
 .team-description {
-  width: 27rem;
   font-size: 1.25rem;
   font-weight: 400;
-  padding-left: 1.5rem;
 }
 
 .box-service-2 {
@@ -255,7 +245,6 @@ input[type='email'] {
 }
 
 .button-submit {
-  display: flex;
   justify-content: center;
   width: 13rem;
   height: 3.125rem;
@@ -278,10 +267,16 @@ textarea::placeholder {
 }
 
 @media (min-width: 768px) {
-  input[type='text'],
-  input[type='email'],
-  .coment {
-    width: 43.125rem;
+  .culture-description {
+    width: 38rem;
+  }
+
+  .box-card {
+    width: 30rem;
+  }
+
+  .team-description {
+    width: 27rem;
   }
 
   .title-contact {
@@ -290,6 +285,12 @@ textarea::placeholder {
 
   .text-box-service {
     width: 40rem;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  .coment {
+    width: 43.125rem;
   }
 }
 
