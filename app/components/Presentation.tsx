@@ -25,11 +25,11 @@ export default function Presentation() {
   ];
   return (
     <>
-      <div className="content flex flex-col items-start">
-        <h2 className="style-title flex flex-col justify-start items-start text-xl text-lightBlue">
+      <div className="content flex flex-col items-start p-1">
+        <h2 className="style-title flex flex-col justify-start items-start text-base lg:text-xl text-lightBlue lg:pl-16">
           Sites. Sistemas. Aplicativos.
         </h2>
-        <div className="typewriter flex flex-col justify-start items-start text-5xl">
+        <div className="typewriter flex flex-col justify-start items-start text-3xl lg:text-5xl lg:pl-16">
           {sectionData.map(function (item) {
             return (
               <Typewriter
@@ -41,7 +41,7 @@ export default function Presentation() {
               />
             );
           })}
-          <p className="style-text text-2xl font-normal">
+          <p className="style-text text-sm font-normal lg:w-480 lg:text-2xl">
             Tudo que sua empresa precisa para alavancar o crescimento das suas
             soluções
           </p>

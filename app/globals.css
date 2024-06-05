@@ -23,13 +23,11 @@ body {
 
 .menu-nav {
   padding-top: 8rem;
-  padding-bottom: 9rem;
-  padding-left: 5rem;
   background-color: rgb(38, 38, 38);
 }
 
 .content {
-  width: 100%;
+  width: 90vw;
   height: 34.375rem;
   margin-top: 3rem;
 }
@@ -37,7 +35,6 @@ body {
 .style-title {
   width: 100%;
   padding-top: 5rem;
-  padding-left: 9rem;
   padding-bottom: 1.25rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -46,13 +43,12 @@ body {
 .typewriter {
   width: 100%;
   height: 35rem;
-  padding-left: 9rem;
   color: white;
   font-weight: 900;
 }
 
 .style-text {
-  width: 30rem;
+  width: 18rem;
   padding-top: 4rem;
   padding-bottom: 1.75rem;
 }
@@ -133,18 +129,15 @@ body {
 
 .culture-box {
   gap: 6rem;
-  padding-top: 17rem;
   position: relative;
 }
 
 .culture-title {
-  font-size: 5rem;
   font-weight: 800;
 }
 
 .box {
   background-color: rgb(64, 64, 64);
-  width: 40rem;
   height: 37rem;
   top: 22rem;
   right: 0;
@@ -156,44 +149,30 @@ body {
 }
 
 .culture-text p {
-  width: 30.785rem;
   font-size: 2.5rem;
 }
 
 .culture-description {
-  width: 38rem;
   height: 7.125rem;
-  font-size: 2rem;
-}
-
-.title-page {
-  font-size: 5rem;
-  text-transform: uppercase;
 }
 
 .box-title {
-  width: 95%;
   height: 26rem;
   margin-top: 5rem;
   background-color: rgb(41, 41, 41);
 }
 
 .box-pre-text {
-  width: 53rem;
   margin-top: 6.25rem;
-  padding-left: 8rem;
-  font-size: 2.5rem;
   font-weight: 400;
 }
 
 .team-title {
   width: 100%;
   padding-top: 5rem;
-  font-size: 5rem;
 }
 
 .box-card {
-  width: 30rem;
   height: 28rem;
   margin-top: 4rem;
   padding: 1.5rem 1.25rem;
@@ -203,7 +182,6 @@ body {
 .image-card {
   width: 9.875rem;
   height: 9.375rem;
-  margin: 1rem;
 }
 
 .team-name {
@@ -219,17 +197,7 @@ body {
 }
 
 .team-description {
-  width: 27rem;
   font-size: 1.25rem;
-  font-weight: 400;
-  padding-left: 1.5rem;
-}
-
-.box-pre-text {
-  width: 53rem;
-  margin-top: 6.25rem;
-  padding-left: 8rem;
-  font-size: 2.5rem;
   font-weight: 400;
 }
 
@@ -241,13 +209,8 @@ body {
   background-color: rgb(31, 31, 31);
 }
 
-.text-box-service {
-  width: 40rem;
-  position: absolute;
-  align-items: center;
-}
 .title-contact {
-  font-size: 4.688rem;
+  line-height: inherit;
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(255, 255, 255);
@@ -261,14 +224,13 @@ body {
 }
 
 .button-team {
-  font-size: 1.75rem;
+  font-size: 1rem;
   font-weight: 700;
   color: rgb(41, 41, 41);
   margin-right: 3rem;
 }
 
 .coment {
-  width: 43.125rem;
   height: 12.25rem;
   padding-left: 1.5rem;
   padding-top: 1rem;
@@ -277,18 +239,15 @@ body {
 
 input[type='text'],
 input[type='email'] {
-  width: 43.125rem;
   height: 3.5rem;
   padding-left: 1.5rem;
   color: rgb(0, 0, 0);
 }
 
 .button-submit {
-  display: flex;
   justify-content: center;
   width: 13rem;
   height: 3.125rem;
-  margin-top: 3rem;
   padding: 0.5rem;
   background-color: rgb(217, 217, 217);
   color: rgb(0, 0, 0);
@@ -299,6 +258,48 @@ textarea::placeholder {
   color: rgb(85, 85, 85);
 }
 
+@media (max-width: 640px) {
+  input[type='text'],
+  input[type='email'],
+  .coment {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .culture-description {
+    width: 38rem;
+  }
+
+  .box-card {
+    width: 30rem;
+  }
+
+  .team-description {
+    width: 27rem;
+  }
+
+  .title-contact {
+    font-size: 4.688rem;
+  }
+
+  .text-box-service {
+    width: 40rem;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  .coment {
+    width: 43.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box-pre-text {
+    width: 53rem;
+  }
+}
+
 @media (min-width: 1480px) {
   .box-form {
     gap: 11rem;
@@ -307,13 +308,6 @@ textarea::placeholder {
 
 @media (max-width: 1300px) {
   .box-form {
-    gap: 6rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .box-form {
-    flex-direction: column;
-    padding-left: 10rem;
+    gap: 4rem;
   }
 }

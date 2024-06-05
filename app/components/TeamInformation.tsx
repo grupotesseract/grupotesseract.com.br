@@ -26,7 +26,7 @@ export default function Section() {
   ];
 
   return (
-    <div className="flex items-start justify-around mt-72 mb-5 md:max-xl:flex-col md:max-xl:items-center md:max-xl:gap-16 md:max-xl:mt-24">
+    <div className="flex flex-col items-center justify-center gap-16 mt-24 mb-5 xl:flex-row 2xl:max-w-[1300px] 2xl:m-auto">
       {sectionData.map(function (item) {
         return (
           <IconTitleDescription

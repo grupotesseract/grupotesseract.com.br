@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <main className="flex flex-col items-center justify-center">
         <Presentation />
-        <section className="min-w-full">
+        <section className="w-auto">
           <Section />
           <MultiTechnology />
           <Carousel slides={slides} />
