@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialMediaIcons = () => (
   <>
-    <div className="flex pr-6 md:max-xl:pr-0">
+    <div className="flex lg:pr-6">
       <a
         href="https://www.instagram.com/tesseract"
         target="_blank"

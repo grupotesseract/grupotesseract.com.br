@@ -22,7 +22,7 @@ export default function FormContact() {
   });
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({
@@ -97,7 +97,7 @@ export default function FormContact() {
         />
         <button
           type="submit"
-          className="button-submit mt-6 text-2xl font-normal uppercase hover:bg-slate-400 lg:mt-12"
+          className="button-submit flex self-end mt-6 text-2xl font-normal uppercase hover:bg-slate-400 lg:mt-12"
         >
           Enviar
         </button>

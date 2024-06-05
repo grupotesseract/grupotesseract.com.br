@@ -10,7 +10,7 @@ export default function GenericButton(props: GenericButtonProps) {
   return (
     <Link href={props.path}>
       <button
-        className={`${props.buttonClass} w-72 h-10 bg-gray hover:bg-slate-400 font-bold uppercase xl:w-96 xl:h-20`}
+        className={`${props.buttonClass} w-56 h-10 bg-gray hover:bg-slate-400 font-bold uppercase md:w-72 xl:w-96 xl:h-20`}
       >
         {props.children}
       </button>

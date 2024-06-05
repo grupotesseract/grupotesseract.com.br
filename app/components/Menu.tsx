@@ -39,7 +39,7 @@ export default function Menu() {
       {openMenu && (
         <>
           <div className="flex justify-end w-screen h-screen fixed z-30">
-            <div className="bg-lightBlue bg-opacity-80 w-2/3 blur-1"></div>
+            <div className="bg-lightBlue bg-opacity-80 w-1/2 blur-1 md:w-2/3"></div>
             <button
               className="flex absolute pt-8 lg:pt-0 lg:w-24 lg:h-24 lg:mt-8"
               onClick={() => setOpenMenu(!openMenu)}
@@ -57,7 +57,7 @@ export default function Menu() {
             </button>
             <nav
               ref={menuRef}
-              className="menu-nav flex flex-col flex-wrap items-center w-1/3 lg:items-start lg:pb-36 lg:pl-20"
+              className="menu-nav flex flex-col flex-wrap items-center w-1/2 md:w-1/3 lg:items-start lg:pt-64 lg:pb-36 lg:pl-20 2xl:pt-32"
             >
               <ul className="flex flex-col justify-between mt-12 2xl:mt-48 relative">
                 <li
