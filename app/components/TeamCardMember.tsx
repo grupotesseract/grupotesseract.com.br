@@ -21,7 +21,7 @@ export default function TeamCardMember(props: TeamCardMemberProps) {
           imageName={props.imageName}
           width={158}
           height={150}
-          imageClass="image-card"
+          imageClass="image-card m-2 md:m-4"
         />
         <TeamMemberName name={props.name} position={props.position} />
         <TeamMemberDescription description={props.description} />

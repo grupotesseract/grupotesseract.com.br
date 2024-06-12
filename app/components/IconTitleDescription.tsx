@@ -20,7 +20,7 @@ export default function IconTitleDescription(props: IconTitleDescriptionProps) {
         />
       )}
       <h1
-        className={`text-lightBlue text-4xl font-black uppercase pb-10 ${props.titleClass}`}
+        className={`text-lightBlue text-3xl font-black uppercase pb-4 lg:pb-10 lg:text-4xl ${props.titleClass}`}
       >
         {props.title}
       </h1>

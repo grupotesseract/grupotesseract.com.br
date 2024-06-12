@@ -30,7 +30,7 @@ export default function Section() {
   ];
 
   return (
-    <div className="flex items-center justify-around mt-20 md:max-xl:flex-col md:max-xl:gap-16">
+    <div className="flex flex-col items-center justify-around gap-16 xl:flex-row lg:mt-20">
       {sectionData.map(function (item) {
         return (
           <IconTitleDescription

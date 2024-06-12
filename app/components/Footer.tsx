@@ -12,9 +12,9 @@ export default function Footer() {
     <>
       <footer className="relative bottom-0 left-0 h-404 bg-opacity-20 bg-gray">
         <Triangles />
-        <div className="flex flex-row-reverse justify-between pl-8">
+        <div className="flex flex-col-reverse justify-between items-center xl:pl-8 lg:flex-row-reverse">
           <div>
-            <nav className="flex pt-20 pr-44 pb-8 pl-10 md:max-xl:pr-16">
+            <nav className="hidden pt-20 pr-16 pb-8 pl-10 lg:flex lg:pr-44">
               <ul className="flex">
                 <li className="p-2 text-xl text-white uppercase">
                   <Link href="/quemsomos">Quem Somos</Link>
@@ -36,7 +36,7 @@ export default function Footer() {
                 </li>
               </ul>
             </nav>
-            <div className="flex justify-between text-xl text-white border-t-4 border-lightBlue pt-10 pr-40 pb-10 pl-10  md:max-xl:pr-20">
+            <div className="flex flex-col justify-between text-xl text-center text-white pt-2 gap-2 lg:flex-row lg:pt-10 lg:pr-40 lg:pb-10 lg:pl-10 xl:pr-20 lg:border-lightBlue lg:border-t-4">
               <div className="pl-2">
                 <h3 className="20px">{contact}</h3>
                 <a
@@ -51,12 +51,12 @@ export default function Footer() {
               <SocialMediaIcons />
             </div>
           </div>
-          <div className="pt-16 pl-40 md:max-xl:pl-24">
+          <div className="xl:pt-8 xl:pl-40">
             <Logo width={322} height={222} />
           </div>
         </div>
         <div>
-          <p className="flex justify-end text-xl pt-2 pr-44 relative text-white opacity-50 md:max-xl:pr-16">
+          <p className="flex justify-center text-xl pt-2 lg:pr-44 relative text-white opacity-50 lg:justify-end xl:pr-16">
             {copyRight}
           </p>
         </div>

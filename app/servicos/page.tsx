@@ -8,8 +8,9 @@ const boxData = [
     subtitle1: 'Outsourcing',
     subtitle2: 'Desenvolvimento de Sistemas',
     subtitle3: 'Consultoria',
-    subtitleClass: 'pl-1',
+    subtitleClass: 'lg:pl-1',
     title: 'Nossos Serviços',
+    titleClass: 'text-6xl',
     key: 1,
   },
 ];
@@ -25,6 +26,7 @@ export default function Services() {
             subtitle3={item.subtitle3}
             subtitleClass={item.subtitleClass}
             title={item.title}
+            titleClass={item.titleClass}
             key={item.key}
           />
         ))}
