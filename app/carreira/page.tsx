@@ -5,30 +5,26 @@ export default function Career() {
   const data = [
     {
       icon: contact,
-      iconClass: 'w-40 h-40',
       text: 'Cultura profissional colaborativa',
-      textClass: 'text-2xl font-bold text-gray pl-4',
+      textClass: 'text-2xl text-center font-bold text-gray',
       key: 1,
     },
     {
       icon: contact,
-      iconClass: 'w-40 h-40',
       text: 'Sistema de apoio interno',
-      textClass: 'text-2xl font-bold text-gray pl-4',
+      textClass: 'text-2xl text-center font-bold text-gray',
       key: 2,
     },
     {
       icon: contact,
-      iconClass: 'w-40 h-40',
       text: 'Variedade de tecnologias',
-      textClass: 'text-2xl font-bold text-gray pl-4',
+      textClass: 'text-2xl text-center font-bold text-gray',
       key: 3,
     },
     {
       icon: contact,
-      iconClass: 'w-40 h-40',
       text: 'Trabalho 100% remoto',
-      textClass: 'text-2xl font-bold text-gray pl-4',
+      textClass: 'text-2xl text-center font-bold text-gray',
       key: 4,
     },
   ];
@@ -39,13 +35,12 @@ export default function Career() {
           Se junte a nossa equipe
         </h1>
       </div>
-      <div className="flex items-center mt-52 gap-8">
+      <div className="flex flex-col justify-center items-center mt-24 p-6 gap-16 lg:flex-row lg:flex-wrap xl:flex-nowrap lg:mt-52 lg:gap-8 2xl:max-w-[1300px] 2xl:m-auto">
         {data.map((item) => {
           return (
             <IconText
               key={item.key}
               icon={item.icon.src}
-              iconClass={item.iconClass}
               text={item.text}
               textClass={item.textClass}
               iconName={'icone'}

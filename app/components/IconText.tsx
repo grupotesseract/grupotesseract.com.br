@@ -14,7 +14,7 @@ export default function IconText(props: IconTextProps) {
   const { icon, iconName, iconClass, text, textClass, width, height } = props;
 
   return (
-    <div className="flex flex-col items-center mt-52 gap-8">
+    <div className="flex flex-col items-center gap-10 lg:gap-8 lg:mt-12 xl:mt-48">
       <div
         className={`flex flex-wrap content-center justify-center rounded-full bg-zinc-800 ${iconClass}`}
       >
