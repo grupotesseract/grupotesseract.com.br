@@ -68,8 +68,9 @@ export default function MultiTechnology() {
     {
       logo: logoCypress,
       logoName: 'logo-cypress',
-      width: 150,
-      height: 150,
+      logoClass: 'max-w-none',
+      width: 250,
+      height: 250,
       size: true,
       key: 7,
       line: 2,
@@ -139,7 +140,7 @@ export default function MultiTechnology() {
         <div className="flex justify-center gap-4">{renderRow(2)}</div>
         <div className="flex justify-center gap-4">
           {renderRow(3)}
-          <div className="flex justify-center items-center w-52 h-28 bg-grayScale ">
+          <div className="flex justify-center items-center w-52 h-28 bg-grayScale">
             <h1 className="text-white text-4xl uppercase">Ci/Cd</h1>
           </div>
         </div>
