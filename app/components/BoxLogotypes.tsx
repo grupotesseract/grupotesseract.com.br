@@ -4,11 +4,12 @@ import logoReact from 'assets/image/react.svg';
 import logoLaravel from 'assets/image/logo-laravel.svg';
 import logoCss from 'assets/image/logo-css.svg';
 import logoFrame from 'assets/image/Frame.svg';
-import logoCypress from 'assets/image/logo-cypress.svg';
+import logoCypress from 'assets/image/logo-cypress-atual.svg';
 import logoReactNative from 'assets/image/logo-react-native.svg';
-import logoNest from 'assets/image/logo-nest.svg';
+import logoNest from 'assets/image/logo-nest-atual.svg';
 import logoDocker from 'assets/image/logo-docker.svg';
-import logoAws from 'assets/image/logo-aws.svg';
+import logoAws from 'assets/image/logo-aws-atual.svg';
+import logoCiCd from 'assets/image/logo-ci-cd.svg';
 import Logotypes from '@/components/Logotypes';
 
 export default function BoxLogotypes() {
@@ -71,18 +72,18 @@ export default function BoxLogotypes() {
     {
       logo: logoNest,
       logoName: 'logo-nest',
-      logoClass: 'bg-inherit',
-      width: 90,
-      height: 90,
+      logoClass: 'bg-inherit max-w-none',
+      width: 150,
+      height: 150,
       column: 2,
       key: 9,
     },
     {
       logo: logoCypress,
       logoName: 'logo-cypress',
-      logoClass: 'bg-inherit max-w-none',
-      width: 200,
-      height: 200,
+      logoClass: 'pr-4 bg-inherit max-w-none',
+      width: 170,
+      height: 170,
       column: 2,
       key: 7,
     },
@@ -98,19 +99,29 @@ export default function BoxLogotypes() {
     {
       logo: logoDocker,
       logoName: 'logo-docker',
-      logoClass: 'bg-inherit max-w-none',
-      width: 170,
-      height: 170,
+      logoClass: 'flex-[1_1_50%]  max-w-none bg-inherit',
+      width: 100,
+      height: 100,
       size: true,
       column: 3,
       key: 10,
     },
     {
+      logo: logoCiCd,
+      logoName: 'logo-ci-cd',
+      logoClass: 'bg-inherit max-w-none',
+      width: 100,
+      height: 100,
+      size: true,
+      column: 3,
+      key: 11,
+    },
+    {
       logo: logoAws,
       logoName: 'logo-aws',
       logoClass: 'bg-inherit',
-      width: 150,
-      height: 150,
+      width: 100,
+      height: 100,
       size: true,
       column: 3,
       key: 11,
@@ -139,7 +150,9 @@ export default function BoxLogotypes() {
       <div className="flex flex-wrap gap-8 justify-center w-96">
         {renderCol(2)}
       </div>
-      <div className="flex flex-wrap w-24">{renderCol(3)}</div>
+      <div className="flex flex-wrap justify-center w-56 gap-8">
+        {renderCol(3)}
+      </div>
     </div>
   );
 }
