@@ -1,7 +1,8 @@
-import PageTitle from '../components/PageTitle';
-import PreContentText from '../components/PreContentText';
-import TeamInformation from '../components/TeamInformation';
-import TextWithBox from '../components/TextWithBox';
+import BoxLogotypes from '@/components/BoxLogotypes';
+import PageTitle from '@/components/PageTitle';
+import PreContentText from '@/components/PreContentText';
+import TeamInformation from '@/components/TeamInformation';
+import TextWithBox from '@/components/TextWithBox';
 
 const boxData = [
   {
@@ -35,6 +36,7 @@ export default function Services() {
       <div className="min-w-full">
         <TeamInformation />
       </div>
+      <BoxLogotypes />
       <TextWithBox />
     </>
   );

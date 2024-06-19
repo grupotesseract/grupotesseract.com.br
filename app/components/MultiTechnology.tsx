@@ -4,11 +4,12 @@ import logoReact from 'assets/image/react.svg';
 import logoLaravel from 'assets/image/logo-laravel.svg';
 import logoCss from 'assets/image/logo-css.svg';
 import logoFrame from 'assets/image/Frame.svg';
-import logoCypress from 'assets/image/logo-cypress.svg';
+import logoCypress from 'assets/image/logo-cypress-atual.svg';
 import logoReactNative from 'assets/image/logo-react-native.svg';
-import logoNest from 'assets/image/logo-nest.svg';
+import logoNest from 'assets/image/logo-nest-atual.svg';
 import logoDocker from 'assets/image/logo-docker.svg';
-import logoAws from 'assets/image/logo-aws.svg';
+import logoAws from 'assets/image/logo-aws-atual.svg';
+import logoCiCd from 'assets/image/logo-ci-cd.svg';
 import Logotypes from './Logotypes';
 
 export default function MultiTechnology() {
@@ -17,8 +18,8 @@ export default function MultiTechnology() {
       logo: logoPhp,
       logoName: 'logo-php',
       logoClass: 'flex',
-      width: 150,
-      height: 150,
+      width: 120,
+      height: 120,
       size: true,
       key: 1,
       line: 1,
@@ -42,6 +43,7 @@ export default function MultiTechnology() {
     {
       logo: logoLaravel,
       logoName: 'logo-laravel',
+      logoClass: 'max-w-none',
       width: 150,
       height: 150,
       size: true,
@@ -68,8 +70,8 @@ export default function MultiTechnology() {
     {
       logo: logoCypress,
       logoName: 'logo-cypress',
-      width: 150,
-      height: 150,
+      width: 170,
+      height: 170,
       size: true,
       key: 7,
       line: 2,
@@ -85,8 +87,9 @@ export default function MultiTechnology() {
     {
       logo: logoNest,
       logoName: 'logo-nest',
-      width: 90,
-      height: 90,
+      logoClass: 'max-w-none',
+      width: 100,
+      height: 100,
       key: 9,
       line: 2,
     },
@@ -103,6 +106,16 @@ export default function MultiTechnology() {
     {
       logo: logoAws,
       logoName: 'logo-aws',
+      width: 100,
+      height: 100,
+      size: true,
+      key: 11,
+      line: 3,
+    },
+    {
+      logo: logoCiCd,
+      logoName: 'logo-ci-cd',
+      logoClass: 'max-w-none',
       width: 150,
       height: 150,
       size: true,
@@ -130,19 +143,14 @@ export default function MultiTechnology() {
     <div className="flex flex-col justify-center my-60 w-screen p-8 h-404 xl:flex-row lg:gap-8 xl:w-full">
       <div className="flex flex-col pb-12 relative items-center lg:justify-center xl:items-start xl:pr-20">
         <h1 className="text-lightBlue font-semibold text-4xl pb-6">Trabalho</h1>
-        <h1 className="technology-text w-96 text-4xl font-extrabold uppercase lg:text-5xl">
+        <h1 className="technology-text w-96 text-4xl text-center font-extrabold uppercase lg:text-5xl xl:text-start">
           Múltiplas Tecnologias
         </h1>
       </div>
       <div className="flex flex-col justify-evenly gap-8">
         <div className="flex justify-center gap-4">{renderRow(1)}</div>
         <div className="flex justify-center gap-4">{renderRow(2)}</div>
-        <div className="flex justify-center gap-4">
-          {renderRow(3)}
-          <div className="flex justify-center items-center w-52 h-28 bg-grayScale ">
-            <h1 className="text-white text-4xl uppercase">Ci/Cd</h1>
-          </div>
-        </div>
+        <div className="flex justify-center gap-4">{renderRow(3)}</div>
       </div>
     </div>
   );
