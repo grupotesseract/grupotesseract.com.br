@@ -143,7 +143,7 @@ export default function MultiTechnology() {
     <div className="flex flex-col justify-center my-60 w-screen p-8 h-404 xl:flex-row lg:gap-8 xl:w-full">
       <div className="flex flex-col pb-12 relative items-center lg:justify-center xl:items-start xl:pr-20">
         <h1 className="text-lightBlue font-semibold text-4xl pb-6">Trabalho</h1>
-        <h1 className="technology-text w-96 text-4xl font-extrabold uppercase lg:text-5xl">
+        <h1 className="technology-text w-96 text-4xl text-center font-extrabold uppercase lg:text-5xl xl:text-start">
           Múltiplas Tecnologias
         </h1>
       </div>
