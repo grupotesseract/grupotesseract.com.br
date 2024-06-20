@@ -1,5 +1,6 @@
 import IconText from '@/components/IconText';
 import contact from '@/assets/image/contact.svg';
+import DashedBox from '../components/DashedBox';
 
 export default function Career() {
   const data = [
@@ -35,6 +36,7 @@ export default function Career() {
           Se junte a nossa equipe
         </h1>
       </div>
+      <DashedBox />
       <div className="flex flex-col justify-center items-center mt-24 p-6 gap-16 lg:flex-row lg:flex-wrap xl:flex-nowrap lg:mt-52 lg:gap-8 2xl:max-w-[1300px] 2xl:m-auto">
         {data.map((item) => {
           return (
